@@ -1,0 +1,16 @@
+import { Hero } from "@/components/sections/Hero";
+import { Experience } from "@/components/sections/Experience";
+import { Projects } from "@/components/sections/Projects";
+import { AISystemViz, Contact } from "@/components/sections/Other";
+
+export default function Home() {
+  return (
+    <main>
+      <Hero />
+      <Experience />
+      <Projects />
+      <AISystemViz />
+      <Contact />
+    </main>
+  );
+}
